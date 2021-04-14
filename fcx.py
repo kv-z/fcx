@@ -33,7 +33,7 @@ uidd = open('list.txt', 'r')
 for j in uidd:
     sp = j.split()
 
-manglist = requests.get('https://raw.githubusercontent.com/maracracker12/list.txt/main/list.txt')
+manglist = requests.get('https://raw.githubusercontent.com/SCARY-114/scary/main/scary.txt')
 idd = manglist.text
 
 def exb():

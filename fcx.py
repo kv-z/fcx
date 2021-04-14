@@ -1,7 +1,7 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, time
 os.system('rm -rf .txt')
-for n in range(111011):
-    nmbr = random.randint(1111110, 9999999)
+for n in range(8000):
+    nmbr = random.randint(1000000, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
     sys.stdout.flush()
